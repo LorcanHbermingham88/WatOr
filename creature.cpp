@@ -1,3 +1,5 @@
-// created by Lorcan Bermingham 04/01/18
+//
+// Created by lorcan on 04/01/18.
+//
 
-#include "creature"
+#include "creature.h"

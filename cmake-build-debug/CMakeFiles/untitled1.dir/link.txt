@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuntitled1.a  CMakeFiles/untitled1.dir/main.cpp.o CMakeFiles/untitled1.dir/creature.cpp.o
+/usr/bin/ranlib libuntitled1.a
