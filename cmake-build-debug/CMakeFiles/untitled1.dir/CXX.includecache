@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lorcan/Desktop/Wator/creature.cpp
+creature.h
+/home/lorcan/Desktop/Wator/creature.h
+
+/home/lorcan/Desktop/Wator/creature.h
+
+/home/lorcan/Desktop/Wator/main.cpp
+iostream
+-
+random
+-
+unistd.h
+-
+vector
+-
+stdlib.h
+-
+time.h
+-
+

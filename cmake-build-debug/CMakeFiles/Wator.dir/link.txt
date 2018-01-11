@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Wator.dir/creature.cpp.o CMakeFiles/Wator.dir/main.cpp.o  -o Wator 

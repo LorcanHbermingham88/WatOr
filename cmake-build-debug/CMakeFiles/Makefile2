@@ -54,45 +54,45 @@ RM = /home/lorcan/C4/DEV/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorcan/CLionProjects/untitled1
+CMAKE_SOURCE_DIR = /home/lorcan/Desktop/Wator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorcan/CLionProjects/untitled1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lorcan/Desktop/Wator/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled1.dir
+# Target rules for target CMakeFiles/Wator.dir
 
 # All Build rule for target.
-CMakeFiles/untitled1.dir/all:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/depend
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lorcan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target untitled1"
-.PHONY : CMakeFiles/untitled1.dir/all
+CMakeFiles/Wator.dir/all:
+	$(MAKE) -f CMakeFiles/Wator.dir/build.make CMakeFiles/Wator.dir/depend
+	$(MAKE) -f CMakeFiles/Wator.dir/build.make CMakeFiles/Wator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lorcan/Desktop/Wator/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Wator"
+.PHONY : CMakeFiles/Wator.dir/all
 
 # Include target in all.
-all: CMakeFiles/untitled1.dir/all
+all: CMakeFiles/Wator.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lorcan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lorcan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled1.dir/rule
+CMakeFiles/Wator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lorcan/Desktop/Wator/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Wator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lorcan/Desktop/Wator/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Wator.dir/rule
 
 # Convenience name for target.
-untitled1: CMakeFiles/untitled1.dir/rule
+Wator: CMakeFiles/Wator.dir/rule
 
-.PHONY : untitled1
-
-# clean rule for target.
-CMakeFiles/untitled1.dir/clean:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/clean
-.PHONY : CMakeFiles/untitled1.dir/clean
+.PHONY : Wator
 
 # clean rule for target.
-clean: CMakeFiles/untitled1.dir/clean
+CMakeFiles/Wator.dir/clean:
+	$(MAKE) -f CMakeFiles/Wator.dir/build.make CMakeFiles/Wator.dir/clean
+.PHONY : CMakeFiles/Wator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Wator.dir/clean
 
 .PHONY : clean
 
