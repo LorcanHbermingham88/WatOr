@@ -3,6 +3,9 @@
 
 # Default target executed when no arguments are given to make.
 default_target: all
+DOXYGEN = doxygen
+INDEX_SRC = docs/html/index.html
+INDEX = firefox $(INDEX_SRC)
 
 .PHONY : default_target
 
@@ -194,6 +197,10 @@ help:
 	@echo "... main.s"
 .PHONY : help
 
+DOC: 
+	$(DOXYGEN) Doxyfile
+	$(INDEX)
+DOC: ALL
 
 
 #=============================================================================
